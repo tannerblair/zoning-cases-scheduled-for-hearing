@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60f807e89f424d529b5f1bcd24c48895 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_60f807e89f424d529b5f1bcd24c48895" ></div>
+        
+</body>
+<script>    
+    
+            var map_60f807e89f424d529b5f1bcd24c48895 = L.map(
+                "map_60f807e89f424d529b5f1bcd24c48895",
+                {
+                    center: [30.268954, -97.75422],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_276e638a4da44c5c81a9280508cd8a3f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+            var marker_2334ba1f6ed4421488adb35122055b5b = L.marker(
+                [30.24528626, -97.72925255],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_5a26a57da72d468296c60b1662349d23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf3c24efbefa431284b32d3422282bd8 = $(`<div id="html_bf3c24efbefa431284b32d3422282bd8" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=1720+SOUTH+LAKESHORE+,+AUSTIN,TX+78741 "target="_blank">1720 SOUTH LAKESHORE, AUSTIN,TX 78741</a> <br></br> Zoning Restrictive Covenant Amendment <br></br> Current: ERC<br></br>Proposed: ERC <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12483255 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_5a26a57da72d468296c60b1662349d23.setContent(html_bf3c24efbefa431284b32d3422282bd8);
+        
+
+        marker_2334ba1f6ed4421488adb35122055b5b.bindPopup(popup_5a26a57da72d468296c60b1662349d23)
+        ;
+
+        
+    
+    
+            var marker_747654b2cec0433db77eef66f9bd43b4 = L.marker(
+                [30.27924235, -97.76058788],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_3cb22b7490994db08866d6e1a622e2ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_760b60f484c14bda96589b9c3d378394 = $(`<div id="html_760b60f484c14bda96589b9c3d378394" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=1607+W+10TH+,+AUSTIN,TX+78703 "target="_blank">1607 W 10TH, AUSTIN,TX 78703</a> <br></br> Zoning Historical <br></br> Current: SF-3-NP<br></br>Proposed: SF-3-H-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12372594 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:steve.sadowsky@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_3cb22b7490994db08866d6e1a622e2ef.setContent(html_760b60f484c14bda96589b9c3d378394);
+        
+
+        marker_747654b2cec0433db77eef66f9bd43b4.bindPopup(popup_3cb22b7490994db08866d6e1a622e2ef)
+        ;
+
+        
+    
+    
+            var marker_545100a902354c6ebe054abe3821649d = L.marker(
+                [30.28597434, -97.676036],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_eda23c25020d417cb8265643cfde97fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40b65040e47b4243b2de50020234092f = $(`<div id="html_40b65040e47b4243b2de50020234092f" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=5201+E+MARTIN+LUTHER+KING+JR+,+AUSTIN,TX+78721 "target="_blank">5201 E MARTIN LUTHER KING JR, AUSTIN,TX 78721</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP, family residence - neighborhood plan<br></br>Proposed: MF-3-NP, multifamily residence-medium density - neighborhood plan, as amended <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12429884 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_eda23c25020d417cb8265643cfde97fd.setContent(html_40b65040e47b4243b2de50020234092f);
+        
+
+        marker_545100a902354c6ebe054abe3821649d.bindPopup(popup_eda23c25020d417cb8265643cfde97fd)
+        ;
+
+        
+    
+    
+            var marker_795ca7cd5629488d899f01c3d520d2b6 = L.marker(
+                [30.28852789, -97.74489063],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_1cc3e524d3e543e795b0bc7db9dff0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7ee1c1e2b794ae1a90b8c06ed64f35b = $(`<div id="html_f7ee1c1e2b794ae1a90b8c06ed64f35b" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=2404+RIO+GRANDE+,+AUSTIN,TX+78705 "target="_blank">2404 RIO GRANDE, AUSTIN,TX 78705</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: GO-H-NP; MF-4-H-NP<br></br>Proposed: GO-H-NP (Tract 1) and MF-4-NP (Tract 2), as amended <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12290990 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_1cc3e524d3e543e795b0bc7db9dff0a1.setContent(html_f7ee1c1e2b794ae1a90b8c06ed64f35b);
+        
+
+        marker_795ca7cd5629488d899f01c3d520d2b6.bindPopup(popup_1cc3e524d3e543e795b0bc7db9dff0a1)
+        ;
+
+        
+    
+    
+            var marker_6f121fd90c55492284ee33b15368afad = L.marker(
+                [30.2764395, -97.75041615],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_5f850d48bfc04c668a26cf832903954f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6604ef555994e2aae2340065aaf5275 = $(`<div id="html_c6604ef555994e2aae2340065aaf5275" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=903+W+12TH+,+AUSTIN,TX+78703 "target="_blank">903 W 12TH, AUSTIN,TX 78703</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: CS - General Commercial Services<br></br>Proposed: DMU-CO - Downtown Mixed Use - Conditional Overlay <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12463302 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_5f850d48bfc04c668a26cf832903954f.setContent(html_c6604ef555994e2aae2340065aaf5275);
+        
+
+        marker_6f121fd90c55492284ee33b15368afad.bindPopup(popup_5f850d48bfc04c668a26cf832903954f)
+        ;
+
+        
+    
+    
+            var marker_53ac4c468d674696b0fec7d0a4a8413b = L.marker(
+                [30.23504347, -97.78778488],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_b597740dbd8946a68cf1fb02dbfc1845 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62ff265d7dc14d11b692477db84f1ff6 = $(`<div id="html_62ff265d7dc14d11b692477db84f1ff6" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=2108+PRATHER+,+AUSTIN,TX+78704 "target="_blank">2108 PRATHER, AUSTIN,TX 78704</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3, Family Residence<br></br>Proposed: SF-5, Urban Family Residence <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12490564 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_b597740dbd8946a68cf1fb02dbfc1845.setContent(html_62ff265d7dc14d11b692477db84f1ff6);
+        
+
+        marker_53ac4c468d674696b0fec7d0a4a8413b.bindPopup(popup_b597740dbd8946a68cf1fb02dbfc1845)
+        ;
+
+        
+    
+    
+            var marker_8f3626f86bab40828574e1acdc11c399 = L.marker(
+                [30.28269196, -97.6752551],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_1f8282f688004711af21ef4c1eacf0cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d3b018ae9eb411bbe9bf77e66bffb08 = $(`<div id="html_9d3b018ae9eb411bbe9bf77e66bffb08" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=1907+WEBBERVILLE+,+AUSTIN,TX+78721 "target="_blank">1907 WEBBERVILLE, AUSTIN,TX 78721</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP<br></br>Proposed: SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12472769 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_1f8282f688004711af21ef4c1eacf0cb.setContent(html_9d3b018ae9eb411bbe9bf77e66bffb08);
+        
+
+        marker_8f3626f86bab40828574e1acdc11c399.bindPopup(popup_1f8282f688004711af21ef4c1eacf0cb)
+        ;
+
+        
+    
+    
+            var marker_6e5c80835f5e4293b3c3fae4955b7511 = L.marker(
+                [30.28795838, -97.74974545],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_286ee3faf23a48479a5e029ac0ddfc10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d25ddfca40be451d8a1cd565721f1b25 = $(`<div id="html_d25ddfca40be451d8a1cd565721f1b25" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=1103+W+24TH+,+AUSTIN,TX+78705 "target="_blank">1103 W 24TH, AUSTIN,TX 78705</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: GO-CO-NP<br></br>Proposed: GR-MU-V-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12428023 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_286ee3faf23a48479a5e029ac0ddfc10.setContent(html_d25ddfca40be451d8a1cd565721f1b25);
+        
+
+        marker_6e5c80835f5e4293b3c3fae4955b7511.bindPopup(popup_286ee3faf23a48479a5e029ac0ddfc10)
+        ;
+
+        
+    
+    
+            var marker_8dffe64164464823adf2209b83f1d1f3 = L.marker(
+                [30.2434527, -97.69221968],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_eee90a50d098417bb54fdf443e452f45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd30e4a284641259baaa5e71d1338d8 = $(`<div id="html_3fd30e4a284641259baaa5e71d1338d8" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=200+MONTOPOLIS+,+AUSTIN,TX+78741 "target="_blank">200 MONTOPOLIS, AUSTIN,TX 78741</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP<br></br>Proposed: SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12429913 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_eee90a50d098417bb54fdf443e452f45.setContent(html_3fd30e4a284641259baaa5e71d1338d8);
+        
+
+        marker_8dffe64164464823adf2209b83f1d1f3.bindPopup(popup_eee90a50d098417bb54fdf443e452f45)
+        ;
+
+        
+    
+    
+            var marker_100c30c371d14195a1c369fcfef08c80 = L.marker(
+                [30.23316698, -97.69785785],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_4755f9ae22ea45b086f48099abd70b5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7d47ae5ef724c0298be138bde823324 = $(`<div id="html_e7d47ae5ef724c0298be138bde823324" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=1013+MONTOPOLIS+,+AUSTIN,TX+78741 "target="_blank">1013 MONTOPOLIS, AUSTIN,TX 78741</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP<br></br>Proposed: SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12429904 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_4755f9ae22ea45b086f48099abd70b5e.setContent(html_e7d47ae5ef724c0298be138bde823324);
+        
+
+        marker_100c30c371d14195a1c369fcfef08c80.bindPopup(popup_4755f9ae22ea45b086f48099abd70b5e)
+        ;
+
+        
+    
+    
+            var marker_8ff9f5de6e9746c5804009de9759eca6 = L.marker(
+                [30.23156961, -97.78514544],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_4d651ed1b01c4cc9ac2a96e2fbdb8780 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e70e5ff5db8433081b7a718db435db2 = $(`<div id="html_1e70e5ff5db8433081b7a718db435db2" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=4022+VALLEY+VIEW+,+AUSTIN,TX+78704 "target="_blank">4022 VALLEY VIEW, AUSTIN,TX 78704</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3<br></br>Proposed: SF-6 <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12502971 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_4d651ed1b01c4cc9ac2a96e2fbdb8780.setContent(html_1e70e5ff5db8433081b7a718db435db2);
+        
+
+        marker_8ff9f5de6e9746c5804009de9759eca6.bindPopup(popup_4d651ed1b01c4cc9ac2a96e2fbdb8780)
+        ;
+
+        
+    
+    
+            var marker_4ee468cb3cb14e4983ef1f2afd9d1c8c = L.marker(
+                [30.24291345, -97.6930864],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_6d5d6b3f8f394a90877f46b97a2af9b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63a15cfd9e91491681968cdab2b1c23d = $(`<div id="html_63a15cfd9e91491681968cdab2b1c23d" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=6201+CLOVIS+,+AUSTIN,TX+78741 "target="_blank">6201 CLOVIS, AUSTIN,TX 78741</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP - FAMILY RESIDENCE-Neighborhood Plan<br></br>Proposed: SF-6 - TOWNHOUSE AND CONDOMINIUM RESIDENCE-Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12436974 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_6d5d6b3f8f394a90877f46b97a2af9b0.setContent(html_63a15cfd9e91491681968cdab2b1c23d);
+        
+
+        marker_4ee468cb3cb14e4983ef1f2afd9d1c8c.bindPopup(popup_6d5d6b3f8f394a90877f46b97a2af9b0)
+        ;
+
+        
+    
+    
+            var marker_2f3dad58fb5d41c3b317e367915a81f2 = L.marker(
+                [30.34745822, -97.7354536],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_fc0d7f4f4ce44bb886dc9bf6200aad43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8f146e6fde8496eadeb141cf94a09f5 = $(`<div id="html_e8f146e6fde8496eadeb141cf94a09f5" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=7113+BURNET+,+AUSTIN,TX+78757 "target="_blank">7113 BURNET, AUSTIN,TX 78757</a> <br></br> Zoning Restricted Covenant Termination <br></br> Current: CS-1-CO-NP, CS-CO-NP, LO-CO-NP<br></br>Proposed: MF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12405761 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_fc0d7f4f4ce44bb886dc9bf6200aad43.setContent(html_e8f146e6fde8496eadeb141cf94a09f5);
+        
+
+        marker_2f3dad58fb5d41c3b317e367915a81f2.bindPopup(popup_fc0d7f4f4ce44bb886dc9bf6200aad43)
+        ;
+
+        
+    
+    
+            var marker_d32d2e6397894de59aeda08560522c71 = L.marker(
+                [30.23897687, -97.69140017],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_92fbb3144c0a4c0aba92c33c3b146ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fab7e3eec67c4ac58ffaba3d2a7fa526 = $(`<div id="html_fab7e3eec67c4ac58ffaba3d2a7fa526" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=6328+EL+MIRANDO+,+AUSTIN,TX+78741 "target="_blank">6328 EL MIRANDO, AUSTIN,TX 78741</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP<br></br>Proposed: SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12447537 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_92fbb3144c0a4c0aba92c33c3b146ad5.setContent(html_fab7e3eec67c4ac58ffaba3d2a7fa526);
+        
+
+        marker_d32d2e6397894de59aeda08560522c71.bindPopup(popup_92fbb3144c0a4c0aba92c33c3b146ad5)
+        ;
+
+        
+    
+    
+            var marker_2cd6ed18e1e442d0b4bc43f80a78129b = L.marker(
+                [30.34476619, -97.71619625],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_a16d0c5e9ac3451d8b5bc976dfa048ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b0db62703bb4d1a82999eaf6fc4547e = $(`<div id="html_3b0db62703bb4d1a82999eaf6fc4547e" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=902+MORROW+,+AUSTIN,TX+78757 "target="_blank">902 MORROW, AUSTIN,TX 78757</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP - Family Residence-Neighborhood Plan Combining district<br></br>Proposed: MF-1-NP - Multifamily Residence (Limited Density) - Neighborhood Plan Combining District <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12447972 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_a16d0c5e9ac3451d8b5bc976dfa048ba.setContent(html_3b0db62703bb4d1a82999eaf6fc4547e);
+        
+
+        marker_2cd6ed18e1e442d0b4bc43f80a78129b.bindPopup(popup_a16d0c5e9ac3451d8b5bc976dfa048ba)
+        ;
+
+        
+    
+    
+            var marker_99e97bf58ead4e7c9707e5986f8bd01f = L.marker(
+                [30.26909746, -97.72780495],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_ec0919b806704a52a463f71471005f12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b3cee3416ac46c4814b690e6f96b560 = $(`<div id="html_8b3cee3416ac46c4814b690e6f96b560" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=1154+LYDIA+,+AUSTIN,TX+78702 "target="_blank">1154 LYDIA, AUSTIN,TX 78702</a> <br></br> Zoning Historical <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=216192 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:barbara.stocklin@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_ec0919b806704a52a463f71471005f12.setContent(html_8b3cee3416ac46c4814b690e6f96b560);
+        
+
+        marker_99e97bf58ead4e7c9707e5986f8bd01f.bindPopup(popup_ec0919b806704a52a463f71471005f12)
+        ;
+
+        
+    
+    
+            var marker_14dfdd82a9d54dfab35ec27e2ea719c1 = L.marker(
+                [30.28220572, -97.7150236],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_8415123930ce48a38debfbf8f5b4d657 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3660641302774d5a91d69e96afeea3e0 = $(`<div id="html_3660641302774d5a91d69e96afeea3e0" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=2006+CEDAR+,+AUSTIN,TX+78722 "target="_blank">2006 CEDAR, AUSTIN,TX 78722</a> <br></br> Zoning Historical <br></br> Current: SF-3-NP - Family Residence - Neighborhood Plan<br></br>Proposed: .SF-3-HD- NP - Family Residence - Historic District - Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12470048 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:steve.sadowsky@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_8415123930ce48a38debfbf8f5b4d657.setContent(html_3660641302774d5a91d69e96afeea3e0);
+        
+
+        marker_14dfdd82a9d54dfab35ec27e2ea719c1.bindPopup(popup_8415123930ce48a38debfbf8f5b4d657)
+        ;
+
+        
+    
+    
+            var marker_41a798faf47447c69316f16447c3605e = L.marker(
+                [30.34745822, -97.7354536],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_f71b438e20464c0f9b38cea7db4ffc3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f92d66830de4eb98d0511bb3405e2c8 = $(`<div id="html_6f92d66830de4eb98d0511bb3405e2c8" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=7113+BURNET+,+AUSTIN,TX+78757 "target="_blank">7113 BURNET, AUSTIN,TX 78757</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: CS-1-CO-NP, CS-CO-NP, LO-CO-NP<br></br>Proposed: MF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12405751 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_f71b438e20464c0f9b38cea7db4ffc3d.setContent(html_6f92d66830de4eb98d0511bb3405e2c8);
+        
+
+        marker_41a798faf47447c69316f16447c3605e.bindPopup(popup_f71b438e20464c0f9b38cea7db4ffc3d)
+        ;
+
+        
+    
+    
+            var marker_821514fba077464ea78f231f40bd4638 = L.marker(
+                [30.28795838, -97.74974545],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_6cbe7db0c01643babc1a3acc23623aa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba58e3e779e64b56ada9b7c08afd8183 = $(`<div id="html_ba58e3e779e64b56ada9b7c08afd8183" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=1103+W+24TH+,+AUSTIN,TX+78705 "target="_blank">1103 W 24TH, AUSTIN,TX 78705</a> <br></br> Zoning Amended Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12428013 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:maureen.meredith@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_6cbe7db0c01643babc1a3acc23623aa9.setContent(html_ba58e3e779e64b56ada9b7c08afd8183);
+        
+
+        marker_821514fba077464ea78f231f40bd4638.bindPopup(popup_6cbe7db0c01643babc1a3acc23623aa9)
+        ;
+
+        
+    
+    
+            var marker_53116c002a854e4daf013082a217d7f4 = L.marker(
+                [30.23121089, -97.76690339],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_bf0312a0b2bf461f94de49f724b75edf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ff39e9080ef4e9bab7f03edf9192937 = $(`<div id="html_2ff39e9080ef4e9bab7f03edf9192937" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=3504+S+1ST+,+AUSTIN,TX+78704 "target="_blank">3504 S 1ST, AUSTIN,TX 78704</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: CS-CO<br></br>Proposed: CS-MU-V-CO <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12488646 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_bf0312a0b2bf461f94de49f724b75edf.setContent(html_2ff39e9080ef4e9bab7f03edf9192937);
+        
+
+        marker_53116c002a854e4daf013082a217d7f4.bindPopup(popup_bf0312a0b2bf461f94de49f724b75edf)
+        ;
+
+        
+    
+    
+            var marker_b654f220883a4378ab08fee6ac3e9e62 = L.marker(
+                [30.24044813, -97.69536576],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_86d6024f625548a6a7ed5b44fc3ca38e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91675c5390824921ada40dfe1db4b34f = $(`<div id="html_91675c5390824921ada40dfe1db4b34f" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=508+KEMP+,+AUSTIN,TX+78741 "target="_blank">508 KEMP, AUSTIN,TX 78741</a> <br></br> Zoning Zoning/Rezoning <br></br> Current: SF-3-NP<br></br>Proposed: SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12436931 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_86d6024f625548a6a7ed5b44fc3ca38e.setContent(html_91675c5390824921ada40dfe1db4b34f);
+        
+
+        marker_b654f220883a4378ab08fee6ac3e9e62.bindPopup(popup_86d6024f625548a6a7ed5b44fc3ca38e)
+        ;
+
+        
+    
+    
+            var marker_8e03b2bbe38c4ddf993d8a54aa03c341 = L.marker(
+                [30.34487272, -97.71637322],
+                {}
+            ).addTo(map_60f807e89f424d529b5f1bcd24c48895);
+        
+    
+        var popup_d7b2c9f9bf1347d591754828959a752d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76a81841df5442359f3f7042518062b3 = $(`<div id="html_76a81841df5442359f3f7042518062b3" style="width: 100.0%; height: 100.0%;"><a href=" https://www.google.com/maps/search/?api=1&query=904+MORROW+,+AUSTIN,TX+78757 "target="_blank">904 MORROW, AUSTIN,TX 78757</a> <br></br> Zoning Amended Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12426850 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:maureen.meredith@austintexas.gov "target="_blank"> Email Case Manager </a></div>`)[0];
+            popup_d7b2c9f9bf1347d591754828959a752d.setContent(html_76a81841df5442359f3f7042518062b3);
+        
+
+        marker_8e03b2bbe38c4ddf993d8a54aa03c341.bindPopup(popup_d7b2c9f9bf1347d591754828959a752d)
+        ;
+
+        
+    
+</script>
